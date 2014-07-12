@@ -10,7 +10,6 @@
 		FEBE1BFB197037A20036948F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBE1BFA197037A20036948F /* Foundation.framework */; };
 		FEBE1BFD197037A20036948F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBE1BFC197037A20036948F /* CoreGraphics.framework */; };
 		FEBE1BFF197037A20036948F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBE1BFE197037A20036948F /* UIKit.framework */; };
-		FEBE1C05197037A20036948F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEBE1C03197037A20036948F /* InfoPlist.strings */; };
 		FEBE1C07197037A20036948F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBE1C06197037A20036948F /* main.m */; };
 		FEBE1C0B197037A20036948F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBE1C0A197037A20036948F /* AppDelegate.m */; };
 		FEBE1C0E197037A20036948F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBE1C0C197037A20036948F /* Main.storyboard */; };
@@ -19,7 +18,6 @@
 		FEBE1C1A197037A30036948F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBE1C19197037A30036948F /* XCTest.framework */; };
 		FEBE1C1B197037A30036948F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBE1BFA197037A20036948F /* Foundation.framework */; };
 		FEBE1C1C197037A30036948F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBE1BFE197037A20036948F /* UIKit.framework */; };
-		FEBE1C24197037A30036948F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEBE1C22197037A30036948F /* InfoPlist.strings */; };
 		FEBE1C26197037A30036948F /* BubbleTranslatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBE1C25197037A30036948F /* BubbleTranslatorTests.m */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +37,6 @@
 		FEBE1BFC197037A20036948F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FEBE1BFE197037A20036948F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FEBE1C02197037A20036948F /* BubbleTranslator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleTranslator-Info.plist"; sourceTree = "<group>"; };
-		FEBE1C04197037A20036948F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FEBE1C06197037A20036948F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEBE1C08197037A20036948F /* BubbleTranslator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BubbleTranslator-Prefix.pch"; sourceTree = "<group>"; };
 		FEBE1C09197037A20036948F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,8 +48,8 @@
 		FEBE1C18197037A30036948F /* BubbleTranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBE1C19197037A30036948F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FEBE1C21197037A30036948F /* BubbleTranslatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleTranslatorTests-Info.plist"; sourceTree = "<group>"; };
-		FEBE1C23197037A30036948F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FEBE1C25197037A30036948F /* BubbleTranslatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleTranslatorTests.m; sourceTree = "<group>"; };
+		FEBE1C2F197039EE0036948F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				FEBE1C02197037A20036948F /* BubbleTranslator-Info.plist */,
-				FEBE1C03197037A20036948F /* InfoPlist.strings */,
 				FEBE1C06197037A20036948F /* main.m */,
 				FEBE1C08197037A20036948F /* BubbleTranslator-Prefix.pch */,
 			);
@@ -147,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				FEBE1C21197037A30036948F /* BubbleTranslatorTests-Info.plist */,
-				FEBE1C22197037A30036948F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEBE1C13197037A20036948F /* Images.xcassets in Resources */,
-				FEBE1C05197037A20036948F /* InfoPlist.strings in Resources */,
 				FEBE1C0E197037A20036948F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEBE1C24197037A30036948F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,28 +267,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FEBE1C03197037A20036948F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FEBE1C04197037A20036948F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		FEBE1C0C197037A20036948F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FEBE1C0D197037A20036948F /* Base */,
+				FEBE1C2F197039EE0036948F /* es */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FEBE1C22197037A30036948F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FEBE1C23197037A30036948F /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
